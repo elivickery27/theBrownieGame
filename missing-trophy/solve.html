@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Report - Case #001</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>FINAL CASE REPORT</h1>
+    <p>Case #001 - The Stolen Brownie Recipe</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="suspects.html">Suspects</a>
+    <a href="evidence.html">Evidence</a>
+    <a href="timeline.html">Timeline</a>
+    <a href="solve.html">Solve the Case</a>
+</nav>
+
+<main class="case-report">
+    <div class="confidential">
+        CONFIDENTIAL
+    </div>
+    <div class="official-header">
+        <h2>WESTBROOK ACADEMY</h2>
+        <p>INTERNAL INVESTIGATION REPORT</p>
+
+        <p><b>CASE NUMBER:</b>WK-001-14</p>
+
+        <p><b>CASE STATUS:</b>OPEN - AWAITING INVESTIGATOR CONCLUSION</p>
+    </div>
+
+    <section class="form-section">
+        <span>01</span>
+        <h2>INVESTIGATOR INFORMATION</h2>
+
+        <label>Your name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Date of Report:</label>
+        <input type=""date">
+
+        <label>Investigator ID:</label>
+        <input type="text" placeholder="Optional">
+    </section>
+
+    <section class="form-section">
+        <span>02</span>
+        <h2>SUSPECT IDENTIFICATION</h2>
+
+        <label>Suspect Name:</label>
+        <select id="suspect">
+            <option value="">--Select Suspect--</option>
+            <option value="helen">Helen Carter</option>
+            <option value="daniel">Daniel Price</option>
+            <option value="amy">Amy Evans</option>
+            <option value="mark">Mark Davies</option>
+        </select>
+
+        <label>Age:</label>
+        <input type="number" placeholder="Enter age">
+
+        <label>Position / Role:</label>
+        <input type="text" placeholder="Enter suspect's role">
+
+        <label>Relationship to the School</label>
+        <select id="relationship">
+            <option value="">--Select Relationship--</option>
+            <option value="staff">Staff</option>
+            <option value="student">Student</option>
+            <option value="visitor">Visitor</option>
+        </select>
+    </section>
+
+
+    <section class="form-section">
+        <span>03</span>
+        <h2>SUSPECT ASSESSMENT</h2>
+
+        <div class="evidence-instructions">
+            <strong>INVESTIGATOR INSTRUCTIONS</strong>
+
+            <p>
+                Select the factors that you believe apply to your chosen suspect.
+            </p>
+        </div>
+
+        <h3>Access to the Recipe</h3>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect had legitimate access to the recipe.
+        </label>
+
+
+
+        <h3>Knowledge</h3>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect knew where the recipe was stored.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect knew about the security camera maintanence.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect had contact with the cleaning schedule.
+        </label>
+
+       
+
+        <h3>Opportunity</h3>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect was in the kitchen during the relevant time.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect could access the kitchen office.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect had access to Staff Computer 03.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect could have printed the recipe at 3:31 PM.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect could have access to the missing photocopy.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect was inside or near the kitchen office during the relevant period.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect was involved with the afternoon delivery.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect had an opportunity to take the recipe without being seen.
+        </label>        
+
+
+        <h3>Motive</h3>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Suspect had a reason to want and take the recipe.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            suspect was known to use a blue reusable bag.
+        </label>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            suspect denied involvement in an important part of the timeline.
+       </label>
+
+       <label class="checkbox">
+            <input type="checkbox">
+            Suspect had previously shown interest in the brownie recipe.
+        </label>
+    </section>
+
+
+    <section class="form-section">
+        <div class="section-title">
+            <span>04</span>
+            <div>
+                <h2>EVIDENCE ASSESSMENT</h2>
+                <p>Review each item of evidence and record its relevance to the investigation.</p>
+            </div>
+        </div>
+
+        <div class="evidence-instructions">
+            <strong>INVESTIGATOR INSTRUCTIONS</strong>
+
+            <p>
+                for each item, decide wheter the evidence is relevant to your conclusion.
+        </div>
+
+
+    
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #001</div>
+
+            <h3>The Empty Recipe Folder</h3>
+
+            <p class="evidence description">
+                The original red recipe folder was found on the kitchen office desk. The brownie recipe was missing but, the folder itsefl was undamaged.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence1" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence1" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #002</div>
+
+            <h3>The Security Camera</h3>
+
+            <p class="evidence description">
+                The kitchen office security camera was offline from 3:35 PM until 4:30 PM because of scheduled maintenance.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence2" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence2" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #003</div>
+
+            <h3>The Blue Thread</h3>
+
+            <p class="evidence description">
+                A small dark blue synthetic thread was found underneath the recipe folder. It is consistent with a blue reusable shopping bag.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence3" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence3" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #004</div>
+
+            <h3>The Printer Log</h3>
+
+            <p class="evidence description">
+                The school printer recorded a copy of the brownie recipe being printed at 3:31 PM from Staff Computer 03.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence4" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence4" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #005</div>
+
+            <h3>The Missing Photocopy</h3>
+
+            <p class="evidence description">
+                An older photocopy of the brownie recipe had disappeared from a kitchen office drawer approximatley one week before the incident.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence5" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence5" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #006</div>
+
+            <h3>The Kitchen Office Key</h3>
+
+            <p class="evidence description">
+                The kitchen office was found unlocked at 4:18 PM. There were no signs of forced entry and the key was later found on the kitchen key board.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence6" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence6" value="not-important">
+                    <span>Not Important</span>
+                </label>
+
+        </div>
+
+        <div class="evidence-assessment">
+            <div class="evidence-number">EVIDENCE #007</div>
+
+            <h3>The Cleaning Schedule</h3>
+
+            <p class="evidence description">
+                The kitchen office was scheduled to be cleaned at 4:00 PM, but the cleaner did not enter after beiing told the floor has already been cleaned.
+            </p>
+
+            <div class="evidence-decison">
+                <p clas="decision-label">Is this evidence important?</p>
+
+                <label>
+                    <input type="radio" name="evidence7" value="important">
+                    <span>Important</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="evidence7" value="not-important">
+                    <span>Not Important</span>
+                </label>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>5.ALIBI ASSESSMENT</h2>
+
+        <label>How reliable is the suspect's alibi?</label>
+        <select>
+        
+            <option>--Select--</option>
+            <option>Strongly supported</option>
+            <option>Partially supported</option>
+            <option>Unverified</option>
+            <option>Contradicited by evidence</option>
+        </select>
+
+
+        <label>Explain your decision:</label>
+        <textarea
+            placeholder="Explain wheter the suspect's alibi can be trusted..."
+        ></textarea>
+    </section>
+
+
+    <section class="form-section">
+        <h2>6.INVESTIGATOR'S THEORY</h2>
+
+        <label>
+            Explain how you believe the recipe was taken.
+        </label>
+
+        <textarea
+            placeholder="Describe what you think happened..."
+        ></textarea>
+
+        <label>
+            What was the suspect's motive?
+        </label>
+
+        <textarea
+            placeholder="Explain the suspected motive..."
+        ></textarea>
+
+
+        <label>
+            Which evidence supports your theory?
+        </label>
+
+        <textarea  
+            placeholder="List the evidence that supports your conclusion..."
+        ></textarea>
+
+    </section>
+
+
+    <section class="form-section-final-section">
+        <h2>CONFIDENCE IN CONCLUSION</h2>
+
+
+
+        <label class="radio">
+            <input type="radio" name="confidence" value="verylow">
+            Very Low
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="confidence" value="low">
+            Low
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="confidence" value="moderate">
+            Moderate
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="confidence" value="high">
+            High
+        </label>
+
+        <label class="radio">
+            <input type="radio" name="confidence" vlaue="veryhigh">
+            Very High
+        </label>
+
+
+    </section>
+
+    <div class="submit-area">
+
+        <button onclick="submitCase()">
+            SUBMIT FINAL REPORT
+        </button>
+
+        <p id="result"></p>
+    </div>
+        
+</main>
+
+<script>
+
+    function submitCase(){
+        let suspect = document.getElementById("suspect").value;
+        if(suspect == "helen"){
+            document.getElementById("result").innerHTML = "CASE REPORT SUBMITTED. Your conclusion matches the available evidence. Helen Carter is responsible.";
+        }else if(suspect == ""){
+            document.getElementById("result").innerHTML = "Please select a suspect before submitting your report.";
+        }else{
+            document.getElementById("result").innerHTML = "CASE REPORT SUBMITTED. Your conclusion does not match the available evidence. Review the evidence and try again.";
+        }
+    }
+    
+</script>
+</body>
+</html>
