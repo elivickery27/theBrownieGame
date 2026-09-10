@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#eeeeee;
+    color:#222;
+}
+
+.main-header{
+    background:#1f1f1f;
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.agency-name{
+    font-size:12px;
+    letter-spacing:3px;
+    color:#aaa;
+    margin-bottom:15px;
+}
+
+.main-header h1{
+    font-size:42px;
+    letter-spacing:5px;
+    margin:0;
+}
+
+.header-description{
+    color:#ccc;
+    margin-top:15px;
+}
+
+.case-selection{
+    max-width:1100px;
+    margin:0 auto;
+    padding:50px 20px;
+}
+
+.page-heading{
+    margin-bottom:35px;
+}
+
+.page-heading > p:first-child{
+    font-size:11px;
+    letter-spacing:2px;
+    color:#777;
+}
+
+.page-heading h2{
+    font-size:30px;
+    margin:8px 0;
+}
+
+.page-heading p{
+    color:#666;
+    line-height:1.5;
+}
+
+.case-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px, 1fr));
+    gap:25px;
+}
+
+.case-card{
+    background:white;
+    border:1px solid #ccc;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    padding:25px;
+}
+
+.caes-top{
+    background:#292929;
+    color:white;
+    padding:12px 15px;
+    display:flex;
+    justify-content:space-between;
+    font-size:11px;
+    letter-spacing:1px;
+}
+
+.status{
+    color:#aaa;
+}
+
+.caes-content{
+    padding:25px;
+}
+
+.caes-category{
+    font-size:10px;
+    letter-spacing:2px;
+    color:#888;
+}
+
+.caes-content h3{
+    font-size:27px;
+    line-height:1.1;
+    margin:15px 0;
+}
+
+.case-content > p{
+    color:#666;
+    line-height:1.5;
+}
+
+.case-details{
+    display:flex;
+    gap:30px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:15px 0;
+    margin:20px 0;
+}
+
+.case-details div{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+.case-details small{
+    font-size:9px;
+    color:#888;
+    letter-spacing:1px;
+}
+
+.case-details strong{
+    font-size:12px;
+}
+
+.open-case{
+    display:block;
+    text-align:center;
+    background:#222;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+.open-case:hover{
+    background:#444;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:10px;
+    letter-spacing:1px;
+}

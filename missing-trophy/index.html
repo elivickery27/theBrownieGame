@@ -1,66 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>The Missing Brownie</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>CASE FILES|INVESTIGATION DATABASE</title>
+
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>THE MISSING BROWNIE</h1>
-        <p>Can you solve the case?</p>
+    <header class="main-header">
+
+        <div class="header-content">
+            <p class="agency-name">WESTBROOK INVESTIGATIONS</p>
+
+            <h1>CASE FILES</h1>
+
+            <p class="header-description">
+                Select a case file to begin your investigation.
+            </p>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="suspects.html">Suspects</a>
-        <a href="evidence.html">Evidence</a>
-        <a href="timeline.html">Timeline</a>
-        <a href="solve.html">Solve the Case</a>
-    </nav>
+    <main class="case-selection">
 
-    <main>
-        <h2>Case File #001</h2>
+        <div class="page-heading">
+            <p>INVESTIGATION DATABASE</p>
 
-        <p>
-            For almost 20 years, westbrook Academy has been famous for its chocolate brownies.
-        </p>
+            <h2>Availabe Cases</h2>
 
-        <p>
-            The brownies are made using an original recipe created by the school's former head chef, Margaret Bell, in 2006. The recipe has been passed between only a handful of kitchen managers and is kept in a locked recipe folder inside the school kitchen.
-        </p>
+            <p>
+                Chose a case below. Read the evidence carefully, examine the suspects and reach your own conclusion.
+            </p>
+        </div>
 
-        <h3>What Happened?</h3>
-        <p>
-            On Tuesday afternoon, the kitchen staff were preparing for the school's anual open evening. At approximatley 3:42 PM, Kitchen Manager Helen Carter placed the recipe flolder on the kitchen office desk while checking th quantities needed for the following day's baking
-        </p>
+        <div class="case-grid">
 
-        <p>
-            At 4:18 PM, Helen returned to the office. The folder was still there, but th recipe inside was gone.
-        </p>
 
-        <p>
-            There were no obvious signs that the office had been broken into and only four people were known to have been inside the kitchen area during the relevent time period.
-        </p>
+            <div class="case-card">
 
-        <p>
-            One of them took the recipe
-        </p>
+                <div class="case-top">
+                    <span>CASE #001</span>
+                    <span class="status">UNSOLVED</span>
+                </div>
 
-        <h3>Your Mission</h3>
-        <p>
-            Your task is to gather evidence, interview suspects, and piece together the events that led to the theft of the brownie recipe. 
-            Can you figure out who stole it?
-            Why they stole it?
-            And how did they get it out without being noticed?
-             Use the information provided in the other sections of this website to help you solve the case.
-        </p>
+                <div class="case-content">
 
-        <div class="introduction">
-            <a href="suspects.html">Start Investigation</a>
+                    <p class="case-category">
+                        SCHOOL INVESTIGATION
+                    </p>
+
+                    <h3>
+                        The Stolen<br>
+                        Brownie Recipe
+                    </h3>
+
+                    <p>
+                        A school's original brownie recipe has disappeared from a locked kitchen office.
+                    </p>
+
+                    <div class="case-details">
+
+                        <div>
+                            <small>DIFFICULTY</small>
+                            <strong>🌟🌟</strong>
+                        </div>
+
+                        <div>
+                            <small>LOCATION</small>
+                            <strong>WESTBROOK ACADEMY</strong>
+                        </div>
+                    </div>
+
+                    <a href="index1.html" class="open-case">
+                        OPEN CASE→
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="case-card">
+
+                <div class="case-top">
+                    <span>CASE #002</span>
+                    <span class="status">UNSOLVED</span>
+                </div>
+
+                <div class="case-content">
+
+                    <p class="case-category">
+                        MUSEUM INVESTIGATION
+                    </p>
+
+                    <h3>
+                        The Shattered<br>
+                        Statue
+                    </h3>
+
+                    <p>
+                        The town's commereative Founder Statue is found broken and covered in paint.
+                    </p>
+
+                    <div class="case-details">
+
+                        <div>
+                            <small>DIFFICULTY</small>
+                            <strong>🌟🌟🌟</strong>
+                        </div>
+
+                        <div>
+                            <small>LOCATION</small>
+                            <strong>WESTBROOK MUSEUM</strong>
+                        </div>
+                    </div>
+
+                    <a href="index2.html" class="open-case">
+                        OPEN CASE→
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
 
+    <footer>
+        WESTBROOK INVESTIGATIONS - INTERNAL DATABASE
+    </footer>
 </body>
 </html>
